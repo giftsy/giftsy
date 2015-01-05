@@ -1,0 +1,213 @@
+html {
+    background-color: #3498db;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #ffffff;
+    background-color: #3498db;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Dancing Script", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+p {
+    font-family: "Dancing Script", Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+div {
+    font-family: "Dancing Script", Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-bottom: 0px;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;    
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+h3 {
+    
+}
+
+a {
+    color: #ffffff;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+ul {
+    text-align: left;
+}
+
+div.content {
+    padding-bottom: 20px;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dancing Script'), local('DancingScript'), url(http://fonts.gstatic.com/s/dancingscript/v6/DK0eTGXiZjN6yA8zAEyM2QNMAcR23K2W2XJa2LmwCb4.ttf) format('truetype');
+}
+
+@-webkit-keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+    }
+}
+
+@keyframes colorize {
+    0% {
+        filter: grayscale(100%);
+    }
+    100% {
+        filter: grayscale(0%);
+    }
+}
+
+imagelist {
+    font-size: 0;
+    width: 100px solid transparent;
+    display: inline-block;
+}
+
+imagelist a {
+    margin: 2px;
+    border: 4px solid transparent;
+    display: inline-block;
+}
+
+imagelist img {
+    border-radius: 6px;
+}
+
+/*------------------------------------*\
+  #FILTERS
+\*------------------------------------*/
+.filter {
+text-align:center;
+margin-bottom:50px;
+}
+
+.filter-item {
+display:inline-block;
+}
+
+.filter-link {
+color:#ccc;
+display:block;
+font-size:30px;
+margin:0 15px;
+}
+
+.filter-link:hover,.filter-link:focus,.filter-link.active {
+color:#50708c;
+text-decoration:none;
+}
+
+ul.filter {
+    padding-left: 0px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
+.wrapper-2 {
+text-align:center;
+margin-bottom:50px;
+}
+
+.wrapper-2 {
+display:inline-block;
+}
+
+.wrapper-2 {
+color:#3498db;
+display:block;
+font-size:15px;
+margin:0 15px;
+}
+
+.filter-link-2:hover,.filter-link-2:focus,.filter-link-2.active {
+color:#50708c;
+text-decoration:none;
+}
+
+ul.filter {
+    padding-left: 0px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+/*------------------------------------*\
+  #MENU
+\*------------------------------------*/
+.menu-list {
+  background: #50708c;
+  position: fixed;
+  width: 100%;
+  top: 50px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  z-index: 1020;
+  text-align: center; }
+  .menu-list-item {
+    display: inline-block;
+    margin: 0 30px; }
+  .menu-list-link {
+    font-size: 40px;
+    color: #50708c !important;
+    line-height: 1.2 !important;
+    padding: 0 !important; }
+    .menu-list-link:hover, .menu-list-link:focus {
+      background: transparent !important; }
+
+/*------------------------------------*\
+  #MAIN
+\*------------------------------------*/
+.main {
+  margin-top: 50px; }
+
+.content {
+  background: #fff;
+  padding: 30px 0;
+  margin-bottom: 20px;
+  position: relative; }
+
+/**
+ * Panel
+ */
+.box {
+  padding: 0 90px; }
+  .box-title {
+    color: #50708c;
+    font-size: 48px;
+    margin: 50px 0 20px; }
+    .box-title:first-child {
+      margin-top: 0; }
+  .box-small {
+    padding: 0 30px; }
+  .box-medium {

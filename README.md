@@ -12,7 +12,7 @@ For more information, please see http://giftsy.org
 :---:|:---:|:---:|:---:|:---:
 [Nathan Bernard](https://github.com/nb333) | 
 
-A full list of [contributors](https://github.com/nb333/giftsy/graphs/contributors) can be found on GitHub.
+A full list of [contributors](https://github.com/giftsy/giftsy/graphs/contributors) can be found on GitHub.
 
 ## Contributing
 
@@ -28,11 +28,11 @@ A full list of [contributors](https://github.com/nb333/giftsy/graphs/contributor
 
 ## Bug Tracker
 
-Found a bug? Report it [here](https://github.com/nb333/giftsy/issues/)!
+Found a bug? Report it [here](https://github.com/giftsy/giftsy/issues/)!
 
 ## Feature Request
 
-Have an idea? Add it [here](https://github.com/nb333/giftsy/issues/)!
+Have an idea? Add it [here](https://github.com/giftsy/giftsy/issues/)!
 
 ## License
 

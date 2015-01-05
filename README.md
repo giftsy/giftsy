@@ -2,6 +2,8 @@
 
 Giftsy is the most seamless gifting platform; buy, sell, or trade your gift cards.
 
+For more information, please see http://giftsy.org
+
 ![giftsy-updated](https://cloud.githubusercontent.com/assets/5732914/5611214/31fea59e-9489-11e4-803c-fcc783d75306.png)
 
 ## Authors

@@ -164,28 +164,6 @@ ul.filter {
 }
 
 /*------------------------------------*\
-  #MENU
-\*------------------------------------*/
-.menu-list {
-  background: #50708c;
-  position: fixed;
-  width: 100%;
-  top: 50px;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
-  z-index: 1020;
-  text-align: center; }
-  .menu-list-item {
-    display: inline-block;
-    margin: 0 30px; }
-  .menu-list-link {
-    font-size: 40px;
-    color: #50708c !important;
-    line-height: 1.2 !important;
-    padding: 0 !important; }
-    .menu-list-link:hover, .menu-list-link:focus {
-      background: transparent !important; }
-
-/*------------------------------------*\
   #MAIN
 \*------------------------------------*/
 .main {
@@ -196,18 +174,3 @@ ul.filter {
   padding: 30px 0;
   margin-bottom: 20px;
   position: relative; }
-
-/**
- * Panel
- */
-.box {
-  padding: 0 90px; }
-  .box-title {
-    color: #50708c;
-    font-size: 48px;
-    margin: 50px 0 20px; }
-    .box-title:first-child {
-      margin-top: 0; }
-  .box-small {
-    padding: 0 30px; }
-  .box-medium {
